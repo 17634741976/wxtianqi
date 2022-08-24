@@ -15,7 +15,7 @@ public class WechatpushApplication {
     }
 
 
-    @Scheduled(cron = "0 01 19 * * ?")
+    @Scheduled(cron = "0 30 22 * * ?")
     public void goodMorning(){
         Pusher.push();
     }
